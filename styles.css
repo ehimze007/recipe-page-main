@@ -1,0 +1,129 @@
+/* import installed fonts */
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4% 16%;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.content-container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 4%;
+  line-height: 2.2;
+}
+
+.omelette_img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
+  margin: 0 auto 0;
+}
+
+h1 + p {
+  margin-top: 0px;
+}
+
+.young-serif-font {
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+.out-fit-font,
+li {
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.wenge-brown-color {
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2% 4%;
+  border-radius: 25px;
+}
+
+.preparation-container h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.preparation-container ul {
+  color: hsl(30, 10%, 34%);
+  font: 16px;
+}
+
+span {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+li {
+  padding-left: 14px;
+}
+
+.instructions-container {
+  color: hsl(30, 10%, 34%);
+  border-top: 1px solid hsl(30, 18%, 87%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+li::marker {
+  font-weight: bold;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+}
+
+tr {
+  font-family: "Outfit";
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  line-height: 2.5;
+  color: hsl(30, 10%, 34%);
+}
+
+tr:nth-child(4) {
+  border-bottom: 0;
+}
+
+tr span {
+  color: hsl(14, 45%, 36%);
+}
+
+/* Attribution */
+.attribution {
+  margin-top: 36px;
+  font-size: 16px;
+  font-family: "Young Serif";
+  text-align: center;
+  color: hsl(30, 10%, 34%);
+}
+.attribution a {
+  color: hsl(14, 45%, 36%);
+}
