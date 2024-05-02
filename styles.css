@@ -127,3 +127,17 @@ tr span {
 .attribution a {
   color: hsl(14, 45%, 36%);
 }
+
+@media (max-width: 670px) {
+  body {
+    padding: 4% 8%;
+    background-color: hsl(30, 54%, 90%);
+  }
+
+  .content-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 8% 4%;
+    line-height: 2.2;
+  }
+}
